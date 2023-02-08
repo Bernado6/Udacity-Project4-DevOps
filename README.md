@@ -77,6 +77,15 @@ source ~/.devops/bin/activate
 make install
 ```
 
+#### 4. Installing Docker
+You will need to use Docker to build and upload a containerized application. If you already have this installed and created a docker account, you may skip this step.
+
+1. You’ll need to ![create a free docker account](https://hub.docker.com/), where you’ll choose a unique username and link your email to a docker account. Your username is your unique docker ID.
+
+2. To install the latest version of docker, choose the Community Edition (CE) for your operating system, ![on docker’s installation site](https://docs.docker.com/get-docker/). It is also recommended that you install the latest, stable release:
+ If you're working with ec2 Instance then you can install following this ![steps](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04).
+3. After installation, you can verify that you’ve successfully installed docker by printing its version in your terminal: docker --version
+
 ## Tasks to be completed Explained in detailed
 
 ### Task 1: Complete the Dockerfile

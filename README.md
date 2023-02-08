@@ -50,6 +50,20 @@ source .devops/bin/activate
 * Create Flask app in Container
 * Run via kubectl
 
+## Prerequisites
+
+### Create and Activate an Environment
+
+#### Git and version control
+These instructions also assume you have git installed for working with Github from a terminal window, but if you do not, you can download that first from this Github installation page.
+
+#### 1. clone the project repository, and navigate to the project folder.
+
+```bash
+git clone https://github.com/udacity/DevOps_Microservices.git
+cd DevOps_Microservices/project-ml-microservice-kubernetes
+```
+
 ## Tasks to be completed Explained in detailed
 
 ### Task 1: Complete the Dockerfile

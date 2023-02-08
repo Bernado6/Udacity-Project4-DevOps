@@ -50,7 +50,7 @@ source .devops/bin/activate
 * Create Flask app in Container
 * Run via kubectl
 
-## Prerequisites
+## Do the following to get started
 
 ### Create and Activate an Environment
 
@@ -62,6 +62,13 @@ These instructions also assume you have git installed for working with Github fr
 ```bash
 git clone https://github.com/udacity/DevOps_Microservices.git
 cd DevOps_Microservices/project-ml-microservice-kubernetes
+```
+
+#### 2. Create (and activate) a new environment, named `.devops` with Python 3. If prompted to proceed with the install (`Proceed [y]/n`) type `y`.
+
+```python
+python3 -m venv ~/.devops
+source ~/.devops/bin/activate
 ```
 
 ## Tasks to be completed Explained in detailed

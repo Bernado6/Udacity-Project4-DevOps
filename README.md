@@ -1,3 +1,4 @@
+## Cirleci Status
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/Bernado6/Udacity-Project4-DevOps/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Bernado6/Udacity-Project4-DevOps/tree/master)
 
 ## Project Overview
@@ -48,3 +49,22 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+## Tasks to be completed Explained in detailed
+
+### Task 1: Complete the Dockerfile
+Docker can build images automatically by reading the instructions from a `Dockerfile`. The Dockerfile contains all the commands a user could call on the command line to assemble an image.
+
+To view the contents of the `Dockerfile` type: `cat Dockerfile`. You can edit any file by opening it in a text editor and saving it.
+
+**Dockerfile**
+You can see that you have been given a couple of lines of code in the `Dockerfile` and some instructions.
+
+FROM is provided for you; the FROM instruction initializes a new build stage and sets the base image for subsequent instructions. In this case, it specifies Python3 as the base image for this application. The rest of the Dockerfile instructions are left for you to complete. You should have instructions that:
+
+Specify a working directory.
+Copy the app.py source code to that directory
+Install any dependencies in requirements.txt (do not delete the commented # hadolint ignore statement).
+Expose a port when the container is created; port 80 is standard.
+Specify that the app runs at container launch.
+After you complete this file and save it, it is recommended that you go back to your terminal and run make lint again to see if hadolint catches any errors in your Dockerfile. You are required to pass these lint checks to pass the project.

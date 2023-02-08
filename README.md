@@ -57,14 +57,15 @@ source .devops/bin/activate
 
 * To view the contents of the `Dockerfile` type: `cat Dockerfile`. You can edit any file by opening it in a text editor and saving it.
 
-**Dockerfile**
+#### Dockerfile
 You can see that you have been given a couple of lines of code in the `Dockerfile` and some instructions.
 
 FROM is provided for you; the FROM instruction initializes a new build stage and sets the base image for subsequent instructions. In this case, it specifies Python3 as the base image for this application. The rest of the Dockerfile instructions are left for you to complete. You should have instructions that:
 
-Specify a working directory.
-Copy the app.py source code to that directory
-Install any dependencies in requirements.txt (do not delete the commented # hadolint ignore statement).
-Expose a port when the container is created; port 80 is standard.
-Specify that the app runs at container launch.
-After you complete this file and save it, it is recommended that you go back to your terminal and run make lint again to see if hadolint catches any errors in your Dockerfile. You are required to pass these lint checks to pass the project.
+ * Specify a working directory.
+ * Copy the `app.py` source code to that directory
+ * Install any dependencies in `requirements.txt` (do not delete the commented   `# hadolint ignore` statement).
+ * Expose a port when the container is created; port 80 is standard.
+ * Specify that the app runs at container launch.
+
+After you complete this file and save it, it is recommended that you go back to your terminal and run `make lint` again to see if `hadolint` catches any errors in your Dockerfile. **You are required to pass these lint checks to pass the project.**

@@ -83,8 +83,34 @@ You will need to use Docker to build and upload a containerized application. If 
 1. You’ll need to [create a free docker account](https://hub.docker.com/), where you’ll choose a unique username and link your email to a docker account. Your username is your unique docker ID.
 
 2. To install the latest version of docker, choose the Community Edition (CE) for your operating system, [on docker’s installation site](https://docs.docker.com/get-docker/). It is also recommended that you install the latest, stable release:
- If you're working with ec2 Instance then you can install following this [steps](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04).
-3. After installation, you can verify that you’ve successfully installed docker by printing its version in your terminal: docker --version
+ If you're working with EC2 Instance then you can install following this [steps](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04).
+3. After installation, you can verify that you’ve successfully installed docker by printing its version in your terminal: `docker --version`
+
+#### 5. Installing hadolint
+This project also must pass two lint checks; `hadolint` checks the Dockerfile for errors and `pylint` checks the `app.py` source code for errors.
+
+1. Install hadolint following the instructions, on hadolint's page:
+
+```bash
+# Install hadolint
+wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 &&\
+chmod +x /bin/hadolint
+```
+2. In your terminal, type: `make lint` to run lint checks on the project code. If you haven’t changed any code, all requirements should be satisfied, and you should see a printed statement that rates your code (and prints out any additional comments):
+
+
+```bash
+------------------------------------
+Your code has been rated at 10.00/10
+```
+
+#### 6. Installing Minikube on Ubuntu
+
+```bash
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+sudo install minikube-linux-amd64 /usr/local/bin/minikube
+```
+
 
 ## Tasks to be completed Explained in detailed
 

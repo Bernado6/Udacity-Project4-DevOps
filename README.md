@@ -66,9 +66,15 @@ cd DevOps_Microservices/project-ml-microservice-kubernetes
 
 #### 2. Create (and activate) a new environment, named `.devops` with Python 3. If prompted to proceed with the install (`Proceed [y]/n`) type `y`.
 
-```python
+```bash
 python3 -m venv ~/.devops
 source ~/.devops/bin/activate
+```
+
+#### 3. Installing dependencies via project `Makefile`. Many of the project dependencies are listed in the file `requirements.txt`; these can be installed using `pip` commands in the provided `Makefile`. While in your project directory, type the following command to install these dependencies.
+
+```bash
+make install
 ```
 
 ## Tasks to be completed Explained in detailed

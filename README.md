@@ -1,6 +1,6 @@
 ## Cirleci Status
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/Bernado6/Udacity-Project4-DevOps/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Bernado6/Udacity-Project4-DevOps/tree/master)
-
+![Circleci](https://github.com/Bernado6/Udacity-Project4-DevOps/blob/master/Screenshots/Circleci-passed.png)
 ## Project Overview
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
@@ -131,3 +131,4 @@ FROM is provided for you; the FROM instruction initializes a new build stage and
  * Specify that the app runs at container launch.
 
 After you complete this file and save it, it is recommended that you go back to your terminal and run `make lint` again to see if `hadolint` catches any errors in your Dockerfile. **You are required to pass these lint checks to pass the project.**
+

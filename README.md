@@ -53,9 +53,9 @@ source .devops/bin/activate
 ## Tasks to be completed Explained in detailed
 
 ### Task 1: Complete the Dockerfile
-Docker can build images automatically by reading the instructions from a `Dockerfile`. The Dockerfile contains all the commands a user could call on the command line to assemble an image.
+* Docker can build images automatically by reading the instructions from a `Dockerfile`. The Dockerfile contains all the commands a user could call on the command line to assemble an image.     
 
-To view the contents of the `Dockerfile` type: `cat Dockerfile`. You can edit any file by opening it in a text editor and saving it.
+* To view the contents of the `Dockerfile` type: `cat Dockerfile`. You can edit any file by opening it in a text editor and saving it.
 
 **Dockerfile**
 You can see that you have been given a couple of lines of code in the `Dockerfile` and some instructions.

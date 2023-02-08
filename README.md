@@ -1,7 +1,7 @@
 # Operationalize a Machine Learning Microservice API
 ## Cirleci Status
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/Bernado6/Udacity-Project4-DevOps/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Bernado6/Udacity-Project4-DevOps/tree/master)
-* Circleci Image Showing that success of build Udacity project 4 pipeline
+* Circleci Image Showing `successful` build Udacity project 4 pipeline
 ![Circleci](https://github.com/Bernado6/Udacity-Project4-DevOps/blob/master/Screenshots/Circleci-passed.png)
 
 ## Project Overview
